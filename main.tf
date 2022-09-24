@@ -22,7 +22,7 @@ resource "aws_s3_bucket_object" "object" {
   bucket = aws_s3_bucket.bucket_sellaci.id
   key    = "Dockerrun.aws.json"
   source = "Dockerrun.aws.json"
-  acl    = "private" # or can be "public-read"
+  acl    = "private"
   etag   = filemd5("Dockerrun.aws.json")
 }
 
