@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-        "Name": "clementtr/api-reckon",
+        "Name": "clementtr/api-sellaci",
         "update": "true"
     },
 
